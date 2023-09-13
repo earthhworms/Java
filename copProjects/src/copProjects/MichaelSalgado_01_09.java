@@ -3,7 +3,7 @@ package copProjects;
 import java.util.Scanner;
 
 //Program that takes in width and height of rectangle and outputs the area and perimeter.
-public class MichaelSalgado_01_9 {
+public class MichaelSalgado_01_09 {
 	public static void main (String[] args) {
 		
 		// Boolean to end while loop in case of '0'

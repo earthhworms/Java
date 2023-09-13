@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MichaelSalgado_02_05 {
 	public static void main(String[] args) {
 		
-		//Assigning boolean to identify when to end loop, which is in case of '0'
+		//Assigning boolean to identify when to end loop, which is in case of '0'.
 		boolean endLoop = false;
 		
 		//While loop to restart program after each use

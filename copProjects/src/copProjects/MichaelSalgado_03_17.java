@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class MichaelSalgado_03_17 {
 	public static void main(String[] args) {
 		
-		//Boolean to determine when to end program
+		//Boolean to determine when to end program.
 		boolean endLoop = false;
 		
 		//While loop to restart program until "end" is typed

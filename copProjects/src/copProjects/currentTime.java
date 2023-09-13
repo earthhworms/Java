@@ -3,7 +3,6 @@ package copProjects;
 public class currentTime {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		long totalMilli = System.currentTimeMillis();
 		
 		long seconds = totalMilli / 1000, minutes = seconds / 60, hours = minutes / 60;

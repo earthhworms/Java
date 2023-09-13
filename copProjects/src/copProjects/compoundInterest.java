@@ -19,7 +19,7 @@ public class compoundInterest {
 			float monthlySavingAmnt = input.nextFloat();
 			
 			if (monthlySavingAmnt == 0) {
-				System.out.println("The system has ended, goodbye");
+				System.out.println("The system has ended, goodbye.");
 				endLoop = true;
 				System.exit(0);
 			}
