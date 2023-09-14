@@ -21,13 +21,12 @@ public class MichaelSalgado_03_17 {
 			int random = (int)(Math.random() * 3);
 			
 			//Assigning random integer to a string
-			String opponentHand;
-			if (random == 0) {
-				opponentHand = "rock";
-			} else if (random == 1) {
-				opponentHand = "paper";
-			} else {
-				opponentHand = "scissors";
+			String opponentHand = "default";
+			
+			switch (random) {
+			case 0: opponentHand = "rock"; break;
+			case 1: opponentHand = "paper"; break;
+			case 2: opponentHand = "scissors"; break;
 			}
 			
 			//If statement to determine what to do when user chooses rock
@@ -111,26 +110,11 @@ public class MichaelSalgado_03_17 {
 				e.printStackTrace();
 			}
 			
-			
-			//During first execution, displaying rock
-			if (counter == 0) {
-				System.out.println("Rock...");
-			}
-			
-			//During second execution, displaying paper
-			else if (counter  == 1) {
-				System.out.println("Paper...");
-			}
-			
-			//During third execution, displaying scissors
-			else if (counter == 2) {
-				System.out.println("Scissors...");
-			}
-			
-			//During fourth execution, displaying shoot
-			else {
-				System.out.println("Shoot!");
-				System.out.println(" ");
+			switch (counter) {
+			case 0: System.out.println("Rock..."); break;
+			case 1: System.out.println("Paper..."); break;
+			case 2: System.out.println("Scissors..."); break;
+			case 3: System.out.println("Shoot!"); break;
 			}
 			
 			counter += 1;
