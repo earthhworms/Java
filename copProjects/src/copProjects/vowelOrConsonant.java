@@ -47,7 +47,7 @@ public class vowelOrConsonant {
 				} 
 			
 			//Checking whether the character entered is a number, thus deeming it invalid
-			else if (letter <= 0 || letter >= 0) {
+			else {
 					System.out.println(letter + " is an invalid input. \n");
 			}	
 		}
